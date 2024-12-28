@@ -26,19 +26,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link menu-item" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link menu-item" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link menu-item" href="#skill">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
+                            <a class="nav-link menu-item" href="#about">About</a>
+                        </li>                     
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume <span><i class="fa-solid fa-download"></i></span></a>
+                            <a class="nav-link menu-item" href="assets/latesthabibcv_20230428.pdf" download="latesthabibcv_20230428.pdf">Resume <span><i class="fa-solid fa-download"></i></span></a>
                         </li>
 
 
@@ -55,8 +55,8 @@
     <!-- Banner Section -->
     <section class="container">
         <div class="row mt-5 justify-content-center gap-5">
-            <div class="col-md-7 col-sm-12 ">
-                <h1>HI ! <br>
+            <div class="col-md-7 col-sm-12" id="about">
+                <h1 class="font-color">HI ! <br>
                     I'M HABIBUR RAHAMAN
                 </h1>
                 <p><span>Web Developer ||</span> <span>Angular Developer ||</span><span> Programmer</span></p>
@@ -65,6 +65,20 @@
                     passionate about creating visually appealing, functional, and user-friendly websites with a strong
                     commitment to quality and teamwork.
                 </p>
+                <div>
+                    <a href="https://github.com/habib6bd" target="_blank" class="text-black mx-2">
+                      <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/habib6bd/" target="_blank" class="text-black mx-2">
+                      <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@habiburrahaman5736" target="_blank" class="text-black mx-2">
+                      <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                    <a class="btn btn-secondary" href="assets/latesthabibcv_20230428.pdf" download="latesthabibcv_20230428.pdf" target="_blank" class="text-black mx-2">
+                       Resume
+                       <i class="fa-solid fa-download"></i></a>
+                  </div>
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="mx-auto">
@@ -78,8 +92,8 @@
     <!-- Portfolio Section -->
     <section class="container">
         <div class="row mt-5 justify-content-center">
-            <div class="mb-3">
-                <h1 class="text-center">Portfolio</h1>
+            <div class="mb-3" id="portfolio">
+                <h1 class="text-center font-color">Portfolio</h1>
             </div>
         </div>
         <div class="row justify-content-center gap-3">
@@ -104,13 +118,17 @@
                   </div>
             </div>
             <div class="col-md-5 col-sm-12 ">
-                <h3>Restaurant</h3>
+                <h3 class="font-color">Restaurant <a href="https://www.getbento.com/blog/best-restaurant-websites-design/"><i class="fa-solid fa-link icon-sz"></i></a> <a href="https://github.com/habib6bd/Restaurant-management-system" target="_blank" class="text-blue mx-2">
+                    <i class="fab fa-github fa-2x icon-sz"></i>
+                  </a></h3>
                 <p>A restaurant offers a menu where customers can browse and select items to create their orders. Orders are added to a cart, enabling an organized and convenient process for customers to customize and finalize their meals.</p>
                 <div>
-                    <button type="button" class="btn btn-secondary" disabled>Angular</button>
-                    <button type="button" class="btn btn-secondary" disabled>HTML</button>
-                    <button type="button" class="btn btn-secondary" disabled>CSS</button>
-                    <button type="button" class="btn btn-secondary" disabled>FIRBASE</button>
+                    <ul class="menu">
+                        <li class="badge text-bg-secondary p-2">Angular</li>
+                        <li class="badge text-bg-secondary p-2">JavaScript</li>
+                        <li class="badge text-bg-secondary p-2">HTML</li>
+                        <li class="badge text-bg-secondary p-2 m-2">Bootstrap</li>
+                    </ul>
 
                 </div>
             </div>
@@ -137,13 +155,18 @@
                   </div>
             </div>
             <div class="col-md-5 col-sm-12 ">
-                <h3>Library</h3>
+                <h3 class="font-color">Library <a href="https://openlibrary.org/"><i class="fa-solid fa-link icon-sz"></i></a> <a href="https://github.com/habib6bd/Library-management-system" target="_blank" class="text-blue mx-2">
+                    <i class="fab fa-github fa-2x icon-sz"></i>
+                  </a></h3>
                 <p>The library management system project automates book inventory, borrowing, and returning processes. It tracks book availability, manages member records, and ensures timely returns through due date monitoring. The system enhances efficiency, reduces manual workload, and provides a user-friendly interface for both staff and library members.</p>
                 <div>
-                    <button type="button" class="btn btn-secondary" disabled>Angular</button>
-                    <button type="button" class="btn btn-secondary" disabled>HTML</button>
-                    <button type="button" class="btn btn-secondary" disabled>CSS</button>
-                    <button type="button" class="btn btn-secondary" disabled>FIRBASE</button>
+                    <ul class="menu">
+                        <li class="badge text-bg-secondary p-2">Angular</li>
+                        <li class="badge text-bg-secondary p-2">JavaScript</li>
+                        <li class="badge text-bg-secondary p-2">HTML</li>
+                        <li class="badge text-bg-secondary p-2 m-2">Bootstrap</li>
+                    </ul>
+
 
                 </div>
             </div>
@@ -155,63 +178,105 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 col-sm-12">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h2>Expertise:</h2>
+                    <div class="col-md-12 col-sm-12" id="skill">
+                        <h2 class="font-color">Expertise:</h2>
                         <ul class="menu">
-                            <li class="badge text-bg-secondary">Angular</li>
-                            <li class="badge text-bg-secondary">JavaScript</li>
-                            <li class="badge text-bg-secondary">NodeJs</li>
-                            <li class="badge text-bg-secondary">Firebase</li>
-                            <li class="badge text-bg-secondary">ExpressJs</li>
-                            <li class="badge text-bg-secondary">HTML</li>
-                            <li class="badge text-bg-secondary">Bootstrap</li>
-                            <li class="badge text-bg-secondary">MongoDB</li>
+                            <li class="badge text-bg-secondary p-2 p-2">Angular</li>
+                            <li class="badge text-bg-secondary p-2">JavaScript</li>
+                            <li class="badge text-bg-secondary p-2">NodeJs</li>
+                            <li class="badge text-bg-secondary p-2 m-2">Firebase</li>
+                            <li class="badge text-bg-secondary p-2">ExpressJs</li>
+                            <li class="badge text-bg-secondary p-2">HTML</li>
+                            <li class="badge text-bg-secondary p-2">Bootstrap</li>
+                            <li class="badge text-bg-secondary p-2 m-2">MongoDB</li>
                         </ul>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <h2>Comfortable:</h2>
+                        <h2 class="font-color">Comfortable:</h2>
                         <ul class="menu">
-                            <li class="badge text-bg-secondary">Angular</li>
-                            <li class="badge text-bg-secondary">Typescript</li>
-                            <li class="badge text-bg-secondary">mySQL</li>
-                            <li class="badge text-bg-secondary">HTML</li>
-                            <li class="badge text-bg-secondary">Bootstrap</li>
-                            <li class="badge text-bg-secondary">MongoDB</li>
+                            <li class="badge text-bg-secondary p-2">Angular</li>
+                            <li class="badge text-bg-secondary p-2">Typescript</li>
+                            <li class="badge text-bg-secondary p-2">mySQL</li>
+                            <li class="badge text-bg-secondary p-2">HTML</li>
+                            <li class="badge text-bg-secondary p-2">Bootstrap</li>
+                            <li class="badge text-bg-secondary p-2 m-2">MongoDB</li>
                         </ul>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <h2>Familiar:</h2>
+                        <h2 class="font-color">Familiar:</h2>
                         <ul class="menu">
-                            <li class="badge text-bg-secondary">Python</li>
-                            <li class="badge text-bg-secondary">C</li>
-                            <li class="badge text-bg-secondary">C++</li>
-                            <li class="badge text-bg-secondary">Networking</li>
-                            <li class="badge text-bg-secondary">Tailwind</li>
+                            <li class="badge text-bg-secondary p-2">Python</li>
+                            <li class="badge text-bg-secondary p-2">C</li>
+                            <li class="badge text-bg-secondary p-2">C++</li>
+                            <li class="badge text-bg-secondary p-2">Networking</li>
+                            <li class="badge text-bg-secondary p-2 m-2">Tailwind</li>
                         </ul>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <h2>Tools:</h2>
+                        <h2 class="font-color">Tools:</h2>
                         <ul class="menu">
-                            <li class="badge text-bg-secondary">Github</li>
-                            <li class="badge text-bg-secondary">Gitlab</li>
-                            <li class="badge text-bg-secondary">VS Code</li>
-                            <li class="badge text-bg-secondary">Postman</li>
-                            <li class="badge text-bg-secondary">ClickUp</li>
+                            <li class="badge text-bg-secondary p-2">Github</li>
+                            <li class="badge text-bg-secondary p-2">Gitlab</li>
+                            <li class="badge text-bg-secondary p-2">VS Code</li>
+                            <li class="badge text-bg-secondary p-2">Postman</li>
+                            <li class="badge text-bg-secondary p-2 m-2">ClickUp</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <h1>My Education</h1>
+            <div class="col-md-4 col-sm-12">
+                <h1 class="font-color">My Education</h1>
                 <p>Bachelor of Arts <br> National University, Bangladesh <br> 2017-2020</p>
             </div>
         </div>
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="row mt-5 justify-content-center">
+                <div class="mb-3">
+                    <h1 class="text-center font-color">Contact With Me</h1>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 p-4 shadow-lg">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Please Type Your Name">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please Type Your Email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please Type Your Message"></textarea>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- Footer Section-->
+    <section class="mt-5">   
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-1">Copyright © 2024 | Habibur Rahaman</p>
+    <p class="mb-3">Gazipur, Dhaka-1212</p>
+    <div>
+      <a href="https://github.com/habib6bd" target="_blank" class="text-white mx-2">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/habib6bd/" target="_blank" class="text-white mx-2">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://www.youtube.com/@habiburrahaman5736" target="_blank" class="text-white mx-2">
+        <i class="fab fa-youtube fa-2x"></i>
+      </a>
+    </div>
+  </footer>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9141e72117.js" crossorigin="anonymous"></script>
-</body>
 </body>
 
 </html>

@@ -1,3 +1,19 @@
+.menu-item {
+    transition: all 0.3s ease;
+  }
+
+  .menu-item:hover {
+    background-color: #052b3c;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
 .logo-sec img {
     max-width: 33%;
+}
+.font-color {
+    color: #046694
+}
+.icon-sz {
+    font-size: 25px !important;
 }
